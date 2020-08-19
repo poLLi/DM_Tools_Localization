@@ -62,7 +62,7 @@ export default {
             CONSTRUCTION_WORKER_DESCRIPTION: 'You used to work on new housing projects all the time. This is the ideal choice if you like to build structures.',
             CONSTRUCTION_WORKER_BENEFIT: 'Spawn with your work outfit and a melee weapon.',
 
-            REPAIR_MAN_TITLE: 'Repair Man',
+            REPAIR_MAN_TITLE: 'Repairman',
             REPAIR_MAN_DESCRIPTION: 'You were once a repair man with a broad variety of skills.',
             REPAIR_MAN_BENEFIT: 'Spawn with casual attire and a random melee weapon',
 
@@ -78,7 +78,7 @@ export default {
             DOCTOR_DESCRIPTION: 'In theory the hippocratic oath still applies even after society has fallen apart. You once swore a duty to help those that are in need.',
             DOCTOR_BENEFIT: 'Spawn with your work clothes, some medical supplies and a melee weapon.',
 
-            FIRE_FIGHTER_TITLE: 'Fire Fighter',
+            FIRE_FIGHTER_TITLE: 'Firefighter',
             FIRE_FIGHTER_DESCRIPTION: 'You were once a firefighter, bravely battling many of the fires that sprung up during the outbreak. You´re one of the few remaining survivors from the city.',
             FIRE_FIGHTER_BENEFIT: 'Spawn with your work outfit and a fireaxe',
 
