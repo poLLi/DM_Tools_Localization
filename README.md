@@ -11,12 +11,12 @@ our huge database of all the things Dead Matter has to offer.
 
 ## Translations
 
-| Code  | Language | Status       |
-| ----- | -------- | ------------ |
-| en-US | English  | Finished     |
-| de-DE | German   | Finished     |
-| tr-TR | Turkish  | Needs Update |
-| fr-FR | French   | WIP          |
+| Code  | Language | Status           |
+| ----- | -------- | ---------------- |
+| en-US | English  | Finished         |
+| de-DE | German   | Finished         |
+| tr-TR | Turkish  | Needs Update     |
+| fr-FR | French   | Work in progress |
 
 ## 🤔 Stay In Touch
 
