@@ -6,7 +6,7 @@
 
 ## 📌 What is Dead Matter Tools
 
-Dead Matter Tools is everything you need to survive the Zombie Apocalypse. Use our Character Builder, Ineractive Live Map or
+Dead Matter Tools is everything you need to survive the Zombie Apocalypse. Use our Character Builder, Interactive Live Map or
 our huge database of all the things Dead Matter has to offer.
 
 ## Translations
