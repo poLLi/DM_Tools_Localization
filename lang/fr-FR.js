@@ -2,224 +2,224 @@
 export default {
     // Navigation
     MENU: {
-        START: 'Start',
-        BUILDER: 'Character-Builder',
-        MAP: 'Map',
-        MORE: 'More',
-        MORE_WEAPONS: 'Weapons',
-        MORE_ITEMS: 'Items',
-        MORE_VEHICLES: 'Vehicles',
+        START: 'Commencer',
+        BUILDER: 'Création de personnage',
+        MAP: 'Carte',
+        MORE: 'Plus',
+        MORE_WEAPONS: 'Armes',
+        MORE_ITEMS: 'Objets',
+        MORE_VEHICLES: 'Véhicules',
         MORE_FACTIONS: 'Factions',
-        MORE_CREATURES: 'Creatures',
-        CONTACT: 'Contact',
-        OPTIONS_LANG_TITLE: '> Change Language',
+        MORE_CREATURES: 'Créatures',
+        CONTACT: 'Contacte',
+        OPTIONS_LANG_TITLE: '> Changer de langue',
         OPTIONS_EXTRA_TITLE: '> Extras'
     },
 
     // PAGE: START
     START: {
-        HEADLINE_TITLE: 'Community Web Tools',
-        HEADLINE_DESCRIPTION: 'Everything you need to survive the Zombie-Apocalypse!'
+        HEADLINE_TITLE: 'Outils web Communautaire',
+        HEADLINE_DESCRIPTION: 'Tout ce dont vous avez besoin pour survivre à une apocalypse zombie.'
     },
 
     // PAGE: CHARACTER-BUILDER
     BUILDER: {
         CARD: {
             OCCUPATION_TITLE: 'Occupation',
-            PERK_SELECTION_TITLE: 'Perk Selection',
+            PERK_SELECTION_TITLE: "Sélection d'atout",
 
-            CHARACTER_DATA_TITLE: 'Character Data',
-            CHARACTER_DATA_ATTRIBUTES_TITLE: 'Attributes',
-            CHARACTER_DATA_ATTRIBUTES_AGILITY: 'Agility',
-            CHARACTER_DATA_ATTRIBUTES_CHARISMA: 'Charisma',
+            CHARACTER_DATA_TITLE: 'Données du personnage',
+            CHARACTER_DATA_ATTRIBUTES_TITLE: 'Atout',
+            CHARACTER_DATA_ATTRIBUTES_AGILITY: 'Agilitée',
+            CHARACTER_DATA_ATTRIBUTES_CHARISMA: 'Charisme',
             CHARACTER_DATA_ATTRIBUTES_ENDURANCE: 'Endurance',
             CHARACTER_DATA_ATTRIBUTES_INTELLIGENCE: 'Intelligence',
-            CHARACTER_DATA_ATTRIBUTES_STRENGTH: 'Strength',
-            CHARACTER_DATA_SKILLS_TITLE: 'Skills',
-            CHARACTER_DATA_SKILLS_COOKING: 'Cooking',
-            CHARACTER_DATA_SKILLS_FARMING: 'Farming',
-            CHARACTER_DATA_SKILLS_MECHANIC: 'Mechanic',
-            CHARACTER_DATA_SKILLS_CRAFTING: 'Crafting',
-            CHARACTER_DATA_SKILLS_LOCKPICKING: 'Lockpicking',
-            CHARACTER_DATA_SKILLS_MEDICAL: 'Medical',
+            CHARACTER_DATA_ATTRIBUTES_STRENGTH: 'Force',
+            CHARACTER_DATA_SKILLS_TITLE: 'Compétences',
+            CHARACTER_DATA_SKILLS_COOKING: 'Cuisine',
+            CHARACTER_DATA_SKILLS_FARMING: 'Agriculture',
+            CHARACTER_DATA_SKILLS_MECHANIC: 'Mécanique',
+            CHARACTER_DATA_SKILLS_CRAFTING: 'Artisanat',
+            CHARACTER_DATA_SKILLS_LOCKPICKING: 'Crochetage',
+            CHARACTER_DATA_SKILLS_MEDICAL: 'Médical',
 
-            PERK_POINTS_DESCRIPTION: 'You need to have a balance of 0 or more perk points in order to finish the build.',
+            PERK_POINTS_DESCRIPTION: 'Vous devez avoir 0 points ou plus pour terminer la création de personnage..',
             PERK_POINTS_RESET_BUTTON: 'Reset',
-            PERK_POINTS_SAVE_BUTTON: 'Save Build',
-            PERK_POINTS_SAVE_TEXT: 'Your Character Build url is ready.',
-            PERK_POINTS_COPY_CLIPBOARD: 'Copy to Clipboard',
+            PERK_POINTS_SAVE_BUTTON: 'Sauvegarder le personnage',
+            PERK_POINTS_SAVE_TEXT: 'Votre url de création de personnage est près.',
+            PERK_POINTS_COPY_CLIPBOARD: 'Copier dans le presse papier',
 
-            EXTENDED_STATS_BUTTON_OPEN: 'Open Extended Statistics',
-            EXTENDED_STATS_BUTTON_CLOSE: 'Close Extended Statistics',
-            EXTENDED_STATS_BUTTON_WIP: '(Work in Progress)'
+            EXTENDED_STATS_BUTTON_OPEN: 'Ouvrir les statistiques étendues.',
+            EXTENDED_STATS_BUTTON_CLOSE: 'Fermé les statistiques étendues.',
+            EXTENDED_STATS_BUTTON_WIP: '(En cours de consctruction)'
         },
         OCCUPATION: {
-            UNEMPLOYED_TITLE: 'Unemployed',
-            UNEMPLOYED_DESCRIPTION: 'You were a talented but quick learner that decided against pursuing employment.',
-            UNEMPLOYED_BENEFIT: 'Spawn with the clothes on your back and a melee weapon.',
+            UNEMPLOYED_TITLE: 'Sans emploi',
+            UNEMPLOYED_DESCRIPTION: 'Vous étiez un étudiant rapide et talentueux. Vous avez décidé de ne pas chercher un emploi.',
+            UNEMPLOYED_BENEFIT: 'Vous apparaissez avec vos vêtements et une arme de mêlée.',
 
-            CONSTRUCTION_WORKER_TITLE: 'Construction Worker',
-            CONSTRUCTION_WORKER_DESCRIPTION: 'You used to work on new housing projects all the time. This is the ideal choice if you like to build structures.',
-            CONSTRUCTION_WORKER_BENEFIT: 'Spawn with your work outfit and a melee weapon.',
+            CONSTRUCTION_WORKER_TITLE: 'Ouvrier du bâtiment',
+            CONSTRUCTION_WORKER_DESCRIPTION: 'Vous aviez l\'habitude de tout le temps travailler sur de nouveaux projets dans le bâtiment. C\'est le choix idéal si vous aimez construire des structures.',
+            CONSTRUCTION_WORKER_BENEFIT: 'Vous apparaissez avec votre tenue de travail et une arme de mêlée.',
 
-            REPAIR_MAN_TITLE: 'Repair Man',
-            REPAIR_MAN_DESCRIPTION: 'You were once a repair man with a broad variety of skills.',
-            REPAIR_MAN_BENEFIT: 'Spawn with casual attire and a random melee weapon',
+            REPAIR_MAN_TITLE: 'Bricoleur',
+            REPAIR_MAN_DESCRIPTION: 'Vous étiez autrefois un bricoleur avec une grande variété de compétences.',
+            REPAIR_MAN_BENEFIT: 'Vous apparaissez avec une tenue décontractée et une arme de mêlée.',
 
-            FARMER_TITLE: 'Farmer',
-            FARMER_DESCRIPTION: 'Making an honest living is never something to be ashamed of. Everybody still needs to eat.',
-            FARMER_BENEFIT: 'Spawn with some basic clothes and a small backpack with survival gear.',
+            FARMER_TITLE: 'Fermier',
+            FARMER_DESCRIPTION: 'Gagner honnêtement sa vie n\'est jamais quelque chose dont il faut avoir honte. Tout le monde a encore besoin de manger.',
+            FARMER_BENEFIT: 'Vous apparaissez avec des vêtements basiques et un petit sac à dos avec du matériel de survie.',
 
-            CHEF_TITLE: 'Chef',
-            CHEF_DESCRIPTION: 'Your´ve always liked to spend time in the kitchen, ever since you were a child. Now you need to use your cooking skills to survive.',
-            CHEF_BENEFIT: 'Spawn with your work outfit and a kitchen knife.',
+            CHEF_TITLE: 'Chef Cuisinier',
+            CHEF_DESCRIPTION: 'Vous avez toujours aimé passer du temps dans la cuisine, depuis votre enfance. Vous devez maintenant utilisez vos compétences culinaires pour survivre.',
+            CHEF_BENEFIT: 'Vous apparaissez avec votre tenue de travail et un couteau de cuisine.',
 
-            DOCTOR_TITLE: 'Doctor',
-            DOCTOR_DESCRIPTION: 'In theory the hippocratic oath still applies even after society has fallen apart. You once swore a duty to help those that are in need.',
-            DOCTOR_BENEFIT: 'Spawn with your work clothes, some medical supplies and a melee weapon.',
+            DOCTOR_TITLE: 'Docteur',
+            DOCTOR_DESCRIPTION: 'En théorie, le serment d\'Hippocrate s\'applique toujours même après l\'effondrement de la société. Vous avez jadis juré d\'aider ceux qui en ont besoin.',
+            DOCTOR_BENEFIT: 'Vous apparaissez avec votre tenue de travail, des fournitures médicales,  et une arme de mêlée.',
 
-            FIRE_FIGHTER_TITLE: 'Fire Fighter',
-            FIRE_FIGHTER_DESCRIPTION: 'You were once a firefighter, bravely battling many of the fires that sprung up during the outbreak. You´re one of the few remaining survivors from the city.',
-            FIRE_FIGHTER_BENEFIT: 'Spawn with your work outfit and a fireaxe',
+            FIRE_FIGHTER_TITLE: 'Pompier',
+            FIRE_FIGHTER_DESCRIPTION: 'Vous étiez autrefois pompier, combattant courageusement de nombreux incendies qui se sont déclarés durant l\'épidémie. Vous êtes l\'un des rare survivants de la ville.',
+            FIRE_FIGHTER_BENEFIT: 'Vous apparaissez avec votre tenue de travail et une hache de pompier.',
 
-            POLICE_OFFICER_TITLE: 'Police Officer',
-            POLICE_OFFICER_DESCRIPTION: 'You were a police officer, once, enforcing the law. This is now a lawless world.',
-            POLICE_OFFICER_BENEFIT: 'Spawn with your work outfit complete with flashlight and service pistol with a less then half empty magazine.',
+            POLICE_OFFICER_TITLE: 'Officier de Police',
+            POLICE_OFFICER_DESCRIPTION: 'Vous étiez un agent de police, vous appliquiez la loi. Maintenant vous êtes dans un monde sans loi.',
+            POLICE_OFFICER_BENEFIT: 'Vous apparaissez avec votre tenue de travail, une lampe de poche, et un pistolet de service et quelques cartouches.',
 
-            SECURITY_GUARD_TITLE: 'Security Guard',
-            SECURITY_GUARD_DESCRIPTION: 'You never really slept well at night, so you became a security guard at the mall. Might not be a bad thing once the power goes out for good.',
-            SECURITY_GUARD_BENEFIT: 'Spawn with your security outfit and a melee weapon.'
+            SECURITY_GUARD_TITLE: 'Garde de Sécurité',
+            SECURITY_GUARD_DESCRIPTION: 'Vous n\'avez jamais vraiment bien dormi la nuit, alors vous êtes devenu gardien de sécurité au centre commercial. Ce ne sera peut-être pas une mauvaise chose une fois le courant coupé pour de bon.',
+            SECURITY_GUARD_BENEFIT: 'Vous apparaissez avec votre tenue de sécurité et une arme de mêlée.'
         },
 
         PERK: {
-            CPR_TRAINING_TITLE: 'CPR Training',
-            CPR_TRAINING_DESCRIPTION: 'Gain the ability to bring people out of unconciousness by performing CPR.',
+            CPR_TRAINING_TITLE: 'Réanimation cardiopulmonaire',
+            CPR_TRAINING_DESCRIPTION: 'Acquérir la capacité de sortir des personnes de l\'inconscience en pratiquant un massage cardiopulmonaire.',
             
-            ASTRONOMER_TITLE: 'Astronomer',
-            ASTRONOMER_DESCRIPTION: 'Draws a compass on the screen at night when pressing the HUD prompt key.',
+            ASTRONOMER_TITLE: 'Astronome',
+            ASTRONOMER_DESCRIPTION: 'Affiche une boussole sur l\'écran la nuit en appuyant sur la touche d\'affichage de l\'ATH : Affichage Tête Haute',
             
-            OBSERVANT_TITLE: 'Observant',
-            OBSERVANT_DESCRIPTION: 'Perks are listed when looking at a player with the HUD prompt active',
+            OBSERVANT_TITLE: 'Observateur',
+            OBSERVANT_DESCRIPTION: 'Les avantages des autres joueurs sont répertoriés lorsque vous les regardez avec l \'ATH (Affichage Tête Haute) actif',
             
-            HERBALIST_TITLE: 'Herbalist',
-            HERBALIST_DESCRIPTION: 'Allows you to easily identify poisonous berries and mushrooms.',
+            HERBALIST_TITLE: 'Herboriste',
+            HERBALIST_DESCRIPTION: 'Vous permet d\'identifier facilement les baies et les champignons vénéneux.',
             
-            PEANUT_ALLERGY_TITLE: 'Peanut Allergy',
-            PEANUT_ALLERGY_DESCRIPTION: 'Triggers a severe allergic reaction when consuming foods containing peanuts. (Spawn with one epi-pen).',
+            PEANUT_ALLERGY_TITLE: 'Allergique aux arachides',
+            PEANUT_ALLERGY_DESCRIPTION: 'Déclenche une réaction allergique grave lorsque vous consommez des aliments contenant des arachides. (Vous apparaissez avec un epi-pen).',
             
-            PARANOID_TITLE: 'Paranoid',
-            PARANOID_DESCRIPTION: 'You will randomly hear gunshots that are not real.',
+            PARANOID_TITLE: 'Paranoïaque',
+            PARANOID_DESCRIPTION: 'Vous entendez au hasard des coups de feu qui ne sont pas réels.',
             
-            UNIVERSAL_RECEIVER_TITLE: 'Universal Receiver',
-            UNIVERSAL_RECEIVER_DESCRIPTION: 'Forces the blood type to AB+ which allows you to receive blood from anyone without triggering a hemolytic reaction.',
+            UNIVERSAL_RECEIVER_TITLE: 'Receveur Universel',
+            UNIVERSAL_RECEIVER_DESCRIPTION: 'Force le groupe sanguin sur AB+, ce qui vous permet de recevoir du sang de n\'importe qui sans déclencher de réaction hémolytique.',
             
-            UNIVERSAL_DONOR_TITLE: 'Universal Donor',
-            UNIVERSAL_DONOR_DESCRIPTION: 'Forces the blood type to O- which anyone can receive when in need of a transfusion.',
+            UNIVERSAL_DONOR_TITLE: 'Donneur Universel',
+            UNIVERSAL_DONOR_DESCRIPTION: 'Force le groupe sanguin sur O-, ce qui vous permet de donner du sang à n\'importe qui.',
             
-            JOGGER_TITLE: 'Jogger',
-            JOGGER_DESCRIPTION: 'You used to enjoy running when it was just for fun. Gain +2 Agility',
+            JOGGER_TITLE: 'Joggeur',
+            JOGGER_DESCRIPTION: 'Vous aimiez courir quand c\'était juste pour vous amuser. Gagnez +2 en agilité.',
        
-            NERD_TITLE: 'Nerd',
-            NERD_DESCRIPTION: 'You used to play a lot of videogames in your spare time. Lose -2 Strength',
+            NERD_TITLE: 'Geek',
+            NERD_DESCRIPTION: 'Vous aviez l\'habitude de jouer à beaucoup de jeux vidéo pendant votre temps libre. Vous perdez -2 en force.',
             
-            CHESS_PLAYER_TITLE: 'Chess Player',
-            CHESS_PLAYER_DESCRIPTION: 'You used to play competitive chess. Gain +2 Intelligence.',
+            CHESS_PLAYER_TITLE: 'Joueur d\'échec',
+            CHESS_PLAYER_DESCRIPTION: 'Vous aviez l\'habitude de jouer aux échecs en compétition. Vous Gagnez +2 en intelligence.',
             
-            PARTY_BOY_TITLE: 'Party Boy',
-            PARTY_BOY_DESCRIPTION: 'You used to party... a lot. Lose -2 Intelligence.',
+            PARTY_BOY_TITLE: 'Fêtard',
+            PARTY_BOY_DESCRIPTION: 'Vous aviez l\'habitude de faire la fête. Vous perdez -2 en intelligence. ',
             
-            RUNNER_TITLE: 'Runner',
-            RUNNER_DESCRIPTION: 'You used to enjoy running marathons. Gain +300s sprint time and +1 Agility',
+            RUNNER_TITLE: 'Coureur',
+            RUNNER_DESCRIPTION: 'Vous aimiez courir des marathons. Vous gagnez +300s de temps de sprint et +1 en agilité.',
             
-            STRENGTH_TRAINING_TITLE: 'Strength Training',
-            STRENGTH_TRAINING_DESCRIPTION: 'Your life orients around lifting when you´re not at work. Gain +2 Strength.',
+            STRENGTH_TRAINING_TITLE: 'Musculation',
+            STRENGTH_TRAINING_DESCRIPTION: 'Votre vie s\'oriente autour du levage de poids lorsque vous n\'êtes pas au travail. Vous gagnez +2 en force.',
             
-            WEEKEND_BARTENDER_TITLE: 'Weekend Bartender',
-            WEEKEND_BARTENDER_DESCRIPTION: 'You used to be a bartender on weekends, it  gave you an insight into human behavior. Gain +2 Chraisma.',
+            WEEKEND_BARTENDER_TITLE: 'Barman du week-end',
+            WEEKEND_BARTENDER_DESCRIPTION: 'Vous étiez barman le weekend, cela vous a donné un aperçu du comportement humain. Vous gagnez +2 en charisme.',
+           
+            WRESTLER_TITLE: 'Lutteur',
+            WRESTLER_DESCRIPTION: 'Vous étiez lutteur quand vous étiez plus jeune, cela vous rendait assez difficile à mettre au sol. Vous gagnez +2 en endurance.',
             
-            WRESTLER_TITLE: 'Wrestler',
-            WRESTLER_DESCRIPTION: 'You used to be a wrestler when you were younger, it made you pretty hard to bring down. Gain +2 Endurance.',
+            AMATEUR_COOK_TITLE: 'Cuisinier amateur',
+            AMATEUR_COOK_DESCRIPTION: 'Vous aimiez cuisiner des plats raffinés à la maison, et vous n\'avez pas peur de vous retrouver derrière les fourneaux. Vous gagnez +25 en cuisine.',
             
-            AMATEUR_COOK_TITLE: 'Amateur Cook',
-            AMATEUR_COOK_DESCRIPTION: 'You like to cook fancy meals at home and aren´t afraid of getting behind the stove. Gain +25 bonus to Cooking.',
+            AWFUL_COOK_TITLE: 'Mauvais cuisinier',
+            AWFUL_COOK_DESCRIPTION: 'Vous êtes nul au fourneaux. Vous recevez une pénalité de -25 en cuisine.',
             
-            AWFUL_COOK_TITLE: 'Awful Cook',
-            AWFUL_COOK_DESCRIPTION: 'You´re terrible behind the stove. Receive a -25 penalty to Cooking.',
+            METALWORKER_TITLE: 'Travail du métal',
+            METALWORKER_DESCRIPTION: 'Vous aviez l\'habitude de travailler avec le métal et les serrures. Vous gagnez +25 en crochetage.',
             
-            METALWORKER_TITLE: 'Metalworker',
-            METALWORKER_DESCRIPTION: 'You´ve tinkered around with metalworking and locksmithing. Gain a +25 bonus to Lockpicking.',
+            GREEN_THUMB_TITLE: 'Mains vertes',
+            GREEN_THUMB_DESCRIPTION: 'Vous aimez le jardinage. Gagnez un bonus de +25 en agriculture.',
             
-            GREEN_THUMB_TITLE: 'Green Thumb',
-            GREEN_THUMB_DESCRIPTION: 'You enjoy gardening. Gain a +25 bonus to Farming.',
+            HOBBYIST_TITLE: 'Bricoleur amateur',
+            HOBBYIST_DESCRIPTION: 'Vous aimiez les trains miniatures, jouer avec des fusées et pleins de gadgets différents. Vous gagnez +25 en artisanat.',
             
-            HOBBYIST_TITLE: 'Hobbyist',
-            HOBBYIST_DESCRIPTION: 'You enjoy model trains, playing with rockets and all sorts of different gadgets. Gain a +25 bonus to Crafting',
+            GEARHEAD_TITLE: 'Mécanicien amateur',
+            GEARHEAD_DESCRIPTION: 'Vous passiez beaucoup de temps à restaurer de vieilles voitures. Vous gagnez +25 en mécanique.',
             
-            GEARHEAD_TITLE: 'Gearhead',
-            GEARHEAD_DESCRIPTION: 'You spend a lot of time restoring old cars. Gain a +25 bonus to Mechanic.',
+            VOLUNTEER_FIRE_FIGHTER_TITLE: 'Pompier volontaire',
+            VOLUNTEER_FIRE_FIGHTER_DESCRIPTION: 'Vous étiez pompier volontaire quand vous étiez plus jeune. Vous gagnez +25 en soin médical.',
             
-            VOLUNTEER_FIRE_FIGHTER_TITLE: 'Volunteer Firefighter',
-            VOLUNTEER_FIRE_FIGHTER_DESCRIPTION: 'You were a volunteer firefighter when you were younger. Gain a +25 bonus to Medical.',
+            BIG_BONED_TITLE: 'Gros Os',
+            BIG_BONED_DESCRIPTION: 'Vous gagnez plus de santé pour chaque membre et +750ml de sang Max.',
             
-            BIG_BONED_TITLE: 'Big Boned',
-            BIG_BONED_DESCRIPTION: 'Absulute unit. More limb health and +750ml max blood.',
+            OSTEOPOROSIS_TITLE: 'Ostéoporose',
+            OSTEOPOROSIS_DESCRIPTION: 'Vous subissez les dégâts plus fortement.',
             
-            OSTEOPOROSIS_TITLE: 'Osteoporosis',
-            OSTEOPOROSIS_DESCRIPTION: 'You take increased limb damage.',
+            BRAVE_TITLE: 'Courageux',
+            BRAVE_DESCRIPTION: 'Moins de dégâts lorsque vous vous faites tirer dessus.',
             
-            BRAVE_TITLE: 'Brave',
-            BRAVE_DESCRIPTION: 'Less supression when taking fire.',
+            FEARFUL_TITLE: 'Craintif',
+            FEARFUL_DESCRIPTION: 'Vous prenez plus de dégâts lorsque vous vous faites tirer dessus.',
             
-            FEARFUL_TITLE: 'Fearful',
-            FEARFUL_DESCRIPTION: 'Take more supression when taking fire.',
+            NO_FEAR_TITLE: 'Sans peur',
+            NO_FEAR_DESCRIPTION: 'Vous avez tout vu. Vous ne craignez pas la mort. -80% sur les effets de suppression lorsque vous vous faites tirer dessus.',
             
-            NO_FEAR_TITLE: 'No Fear',
-            NO_FEAR_DESCRIPTION: 'You´ve seen it all. You do not fear death. -80% supression from taking fire.',
+            FRIGHTFUL_TITLE: 'Effrayé',
+            FRIGHTFUL_DESCRIPTION: '+80% sur les effets de suppression lorsque vous vous faites tirer dessus.',
             
-            FRIGHTFUL_TITLE: 'Frightful',
-            FRIGHTFUL_DESCRIPTION: 'Additional +80% supression when being attacked.',
+            FAST_METABOLISM_TITLE: 'Métabolisme rapide',
+            FAST_METABOLISM_DESCRIPTION: 'Vous digérez les aliments 50% plus rapidement.',
             
-            FAST_METABOLISM_TITLE: 'Fast Metabolism',
-            FAST_METABOLISM_DESCRIPTION: 'You metabolize food 50% faster.',
+            SLOW_METABOLISM_TITLE: 'Métabolisme lent',
+            SLOW_METABOLISM_DESCRIPTION: 'Vous digérez les aliments 50% plus lentement.',
             
-            SLOW_METABOLISM_TITLE: 'Slow Metabolism',
-            SLOW_METABOLISM_DESCRIPTION: 'You metabolize food 50% more slowly.',
+            IRON_STOMACH_TITLE: 'Estomac de fer',
+            IRON_STOMACH_DESCRIPTION: 'Vous serez malade moins souvent en buvant et mangeant.',
             
-            IRON_STOMACH_TITLE: 'Iron Stomach',
-            IRON_STOMACH_DESCRIPTION: 'Get sick less often when drinking and eating.',
+            WEAK_STOMACH_TITLE: 'Estomac faible',
+            WEAK_STOMACH_DESCRIPTION: 'Vous serez malade plus souvent en buvant et mangeant.',
             
-            WEAK_STOMACH_TITLE: 'Weak Stomach',
-            WEAK_STOMACH_DESCRIPTION: 'Get sick more often when drinking and eating.',
+            SILENT_SEARCH_TITLE: 'Recherche silencieuse',
+            SILENT_SEARCH_DESCRIPTION: 'Faites 50% de bruit en moins lors de la recherche dans un conteneur.',
             
-            SILENT_SEARCH_TITLE: 'Silent Search',
-            SILENT_SEARCH_DESCRIPTION: 'Make 50% less noise when searching a container.',
+            NOISY_SEARCH_TITLE: 'Recherche bruyante',
+            NOISY_SEARCH_DESCRIPTION: 'Faites 50% de bruit en plus lors de la recherche dans un conteneur.',
             
-            NOISY_SEARCH_TITLE: 'Noisy Search',
-            NOISY_SEARCH_DESCRIPTION: 'Make 50% more noise when searching a container.',
+            THICK_SKINNED_TITLE: 'Peau épaisse',
+            THICK_SKINNED_DESCRIPTION: 'Vous résistez de 15% en plus aux attaques de mêlée.',
             
-            THICK_SKINNED_TITLE: 'Thick Skinned',
-            THICK_SKINNED_DESCRIPTION: 'Take 15% less damage from melee attacks.',
+            THIN_SKINNED_TITLE: 'Peau fine',
+            THIN_SKINNED_DESCRIPTION: 'Vous résistez de 15% en moins aux attaques de mêlée.',
             
-            THIN_SKINNED_TITLE: 'Thin Skinned',
-            THIN_SKINNED_DESCRIPTION: 'Take 15% more damage from melee attacks.',
+            NIMBLE_FINGERS_TITLE: 'Doigts agiles',
+            NIMBLE_FINGERS_DESCRIPTION: 'Vous recherchez dans les conteneurs 50% plus vite.',
             
-            NIMBLE_FINGERS_TITLE: 'Nimble Fingers',
-            NIMBLE_FINGERS_DESCRIPTION: 'Search containers 50% faster.',
+            SAUSAGE_FINGERS_TITLE: 'Doigts engourdis',
+            SAUSAGE_FINGERS_DESCRIPTION: 'Vous recherchez dans les conteneurs 50% plus lentement.',
             
-            SAUSAGE_FINGERS_TITLE: 'Sausage Fingers',
-            SAUSAGE_FINGERS_DESCRIPTION: 'Search containers 50% more slowly.',
+            HEAVY_WEIGHT_TITLE: 'Poids lourd',
+            HEAVY_WEIGHT_DESCRIPTION: 'Vous pouvez boire beaucoup plus avant d\'être saoul. ',
             
-            HEAVY_WEIGHT_TITLE: 'Heavy Weight',
-            HEAVY_WEIGHT_DESCRIPTION: 'You get drunk far less easily.',
+            LIGHT_WEIGHT_TITLE: 'Poids léger',
+            LIGHT_WEIGHT_DESCRIPTION: 'Vous êtes plus rapidement saoul en buvant de l\'alcool.',
             
-            LIGHT_WEIGHT_TITLE: 'Light Weight',
-            LIGHT_WEIGHT_DESCRIPTION: 'Impact of drinking too much alcohol is amplified. Lower threshold to start feeling the effects.',
+            LIGTH_STEP_TITLE: 'Pas léger',
+            LIGTH_STEP_DESCRIPTION: 'Vos pas sont 30% plus silencieux.',
             
-            LIGTH_STEP_TITLE: 'Light Step',
-            LIGTH_STEP_DESCRIPTION: 'Your footsteps are 30% quieter.',
-            
-            HEAVY_STEP_TITLE: 'Heavy Step',
-            HEAVY_STEP_DESCRIPTION: 'Your footsteps are 30% louder.'            
+            HEAVY_STEP_TITLE: 'Pas lourd',
+            HEAVY_STEP_DESCRIPTION: 'Vos pas sont 30% plus bruyant.'            
         }
     }
 };
