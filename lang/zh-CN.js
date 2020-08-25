@@ -1,27 +1,33 @@
 /* eslint-disable prettier/prettier */
 export default {
-    // Navigation
+    // ---------------------------
+    // NAVIGATION
     MENU: {
         START: '开始',
         BUILDER: '角色技能模拟',
         MAP: '地图',
         MORE: '更多',
+        MORE_DATABASE: '> 数据库',
         MORE_WEAPONS: '武器',
         MORE_ITEMS: '物品',
         MORE_VEHICLES: '车辆',
         MORE_FACTIONS: '派系',
         MORE_CREATURES: '生物',
+        MORE_EQUIPMENT: '设备',
         CONTACT: '联系我',
         OPTIONS_LANG_TITLE: '> 更改语言',
-        OPTIONS_EXTRA_TITLE: '> 其他'
+        OPTIONS_EXTRA_TITLE: '> 其他',
+        OPTIONS_CHANGELOG: 'Changelog'
     },
 
+    // ---------------------------
     // PAGE: START
     START: {
         HEADLINE_TITLE: '社区网页工具',
         HEADLINE_DESCRIPTION: '这里就有你在末日中生存所需要的一切！'
     },
 
+    // ---------------------------
     // PAGE: CHARACTER-BUILDER
     BUILDER: {
         CARD: {

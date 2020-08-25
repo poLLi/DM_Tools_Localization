@@ -1,27 +1,33 @@
 /* eslint-disable prettier/prettier */
 export default {
-    // Navigation
+    // ---------------------------
+    // NAVIGATION
     MENU: {
         START: 'Commencer',
         BUILDER: 'Création de personnage',
         MAP: 'Carte',
         MORE: 'Plus',
+        MORE_DATABASE: '> Database',
         MORE_WEAPONS: 'Armes',
         MORE_ITEMS: 'Objets',
         MORE_VEHICLES: 'Véhicules',
         MORE_FACTIONS: 'Factions',
         MORE_CREATURES: 'Créatures',
+        MORE_EQUIPMENT: 'Équipement',
         CONTACT: 'Contacte',
         OPTIONS_LANG_TITLE: '> Changer de langue',
-        OPTIONS_EXTRA_TITLE: '> Extras'
+        OPTIONS_EXTRA_TITLE: '> Extras',
+        OPTIONS_CHANGELOG: 'Changelog'
     },
 
+    // ---------------------------
     // PAGE: START
     START: {
         HEADLINE_TITLE: 'Outils web Communautaire',
         HEADLINE_DESCRIPTION: 'Tout ce dont vous avez besoin pour survivre à une apocalypse zombie.'
     },
 
+    // ---------------------------
     // PAGE: CHARACTER-BUILDER
     BUILDER: {
         CARD: {

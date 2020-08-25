@@ -1,27 +1,33 @@
 /* eslint-disable prettier/prettier */
 export default {
-    // Navigation
+    // ---------------------------
+    // NAVIGATION
     MENU: {
         START: 'Başlat',
         BUILDER: 'Karakter Oluşturucu',
         MAP: 'Harita',
         MORE: 'Daha Fazla',
+        MORE_DATABASE: '> Veri tabanı',
         MORE_WEAPONS: 'Silahlar',
         MORE_ITEMS: 'Eşyalar',
-        MORE_VEHICLES: 'Vehicles',
-        MORE_FACTIONS: 'Factions',
-        MORE_CREATURES: 'Creatures',
+        MORE_VEHICLES: 'Araçlar',
+        MORE_FACTIONS: 'Gruplar',
+        MORE_CREATURES: 'Yaratıklar',
+        MORE_EQUIPMENT: 'Ekipman',
         CONTACT: 'İletişim',
         OPTIONS_LANG_TITLE: '> Dili Değiştir',
-        OPTIONS_EXTRA_TITLE: '> Ekstralar'
+        OPTIONS_EXTRA_TITLE: '> Ekstralar',
+        OPTIONS_CHANGELOG: 'Changelog'
     },
 
+    // ---------------------------
     // PAGE: START
     START: {
         HEADLINE_TITLE: 'Topluluk Web Aracları ',
         HEADLINE_DESCRIPTION: 'Zombi Kıyametinde hayatta kalmak için ihtiyacınız olan her şey!'
     },
 
+    // ---------------------------
     // PAGE: CHARACTER-BUILDER
     BUILDER: {
         CARD: {
