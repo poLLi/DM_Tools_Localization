@@ -16,7 +16,7 @@ our huge database of all the things Dead Matter has to offer.
 | en-US | English  | Finished         |
 | de-DE | German   | Finished         |
 | tr-TR | Turkish  | Needs Update     |
-| fr-FR | French   | Work in progress |
+| fr-FR | French   | Finished         |
 | zh-CN | Chinese  | Finished         |
 
 ## 🤔 Stay In Touch
