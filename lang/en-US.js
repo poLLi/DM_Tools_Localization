@@ -7,15 +7,8 @@ export default {
         BUILDER: 'Character-Builder',
         MAP: 'Map',
         MORE: 'More',
-        MORE_DATABASE: '> Database',
-        MORE_WEAPONS: 'Weapons',
-        MORE_ITEMS: 'Items',
-        MORE_VEHICLES: 'Vehicles',
-        MORE_FACTIONS: 'Factions',
-        MORE_CREATURES: 'Creatures',
-        MORE_EQUIPMENT: 'Equipment',
+        DATABASE: 'Database',
         CONTACT: 'Contact',
-        OPTIONS_LANG_TITLE: '> Change Language',
         OPTIONS_EXTRA_TITLE: '> Extras',
         OPTIONS_CHANGELOG: 'Changelog'
     },
@@ -31,8 +24,17 @@ export default {
     // PAGE: CHARACTER-BUILDER
     BUILDER: {
         CARD: {
+            PERK_POINTS: 'Perk Points',
+            
             OCCUPATION_TITLE: 'Occupation',
+            OCCUPATION_BENEFIT: 'Benefit',
+
             PERK_SELECTION_TITLE: 'Perk Selection',
+            PERK_SELECTION_COST: 'Cost',
+            PERK_SELECTION_TRAIT: 'Trait',
+            PERK_SELECTION_HOBBY: 'Hobby',
+            PERK_SELECTION_SKILL: 'Skill',
+            PERK_SELECTION_STAT: 'Stat',
 
             CHARACTER_DATA_TITLE: 'Character Data',
             CHARACTER_DATA_ATTRIBUTES_TITLE: 'Attributes',

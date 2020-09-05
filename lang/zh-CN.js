@@ -7,15 +7,8 @@ export default {
         BUILDER: '角色技能模拟',
         MAP: '地图',
         MORE: '更多',
-        MORE_DATABASE: '> 数据库',
-        MORE_WEAPONS: '武器',
-        MORE_ITEMS: '物品',
-        MORE_VEHICLES: '车辆',
-        MORE_FACTIONS: '派系',
-        MORE_CREATURES: '生物',
-        MORE_EQUIPMENT: '设备',
+        DATABASE: '数据库',
         CONTACT: '联系我',
-        OPTIONS_LANG_TITLE: '> 更改语言',
         OPTIONS_EXTRA_TITLE: '> 其他',
         OPTIONS_CHANGELOG: 'Changelog'
     },
@@ -31,8 +24,17 @@ export default {
     // PAGE: CHARACTER-BUILDER
     BUILDER: {
         CARD: {
+            PERK_POINTS: 'Perk Points',
+
             OCCUPATION_TITLE: '职业',
+            OCCUPATION_BENEFIT: 'Benefit',
+
             PERK_SELECTION_TITLE: '技能选择',
+            PERK_SELECTION_COST: 'Cost',
+            PERK_SELECTION_TRAIT: 'Trait',
+            PERK_SELECTION_HOBBY: 'Hobby',
+            PERK_SELECTION_SKILL: 'Skill',
+            PERK_SELECTION_STAT: 'Stat',
 
             CHARACTER_DATA_TITLE: '人物数据',
             CHARACTER_DATA_ATTRIBUTES_TITLE: '属性',
